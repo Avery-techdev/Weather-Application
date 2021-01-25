@@ -1,0 +1,136 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #14274e;
+}
+
+h1 {
+  display: inline;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 100px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 40px;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+form {
+  display: inline;
+  float: right;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #e0e9ee;
+}
+
+.city {
+  padding: 20px 0 0 80px;
+}
+
+.frame {
+  max-width: 660px;
+  margin: 100px 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.form-control {
+  display: inline;
+  width: auto;
+}
+
+.enter {
+  position: relative;
+  margin: 40px 70px 0 0;
+  border-radius: 5px;
+}
+
+.submit {
+  position: relative;
+  float: left;
+  font-size: 15px;
+  margin: 5px 0px 0 70px;
+  background-color: #14274e;
+  border: 1px solid #14274e;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.current {
+  position: relative;
+  float: right;
+  font-size: 15px;
+  margin: 5px 75px 0 0;
+  background-color: #dee8ed;
+  border: 1px solid #14274e;
+  border-radius: 5px;
+  color: #14274e;
+}
+
+.box {
+  background-image: radial-gradient(
+    circle 900px at 10.3% 17%,
+    rgba(3, 39, 93, 1) 0%,
+    rgba(37, 28, 28, 1) 90%
+  );
+  color: #ffffff;
+  max-width: 500px;
+  border: 1px solid #14274e;
+  margin: 30px auto;
+  border-radius: 50px;
+}
+
+.units {
+  font-size: 18px;
+  position: relative;
+  top: -85px;
+  left: -30px;
+}
+
+.fas {
+  display: block;
+}
+
+.fa-cloud-sun {
+  font-size: 120px;
+  text-align: center;
+  margin: 20px 20px 30px 40px;
+}
+
+.property-table {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.properties {
+  text-align: right;
+}
+
+.preview {
+  text-align: center;
+  margin: 0 50px;
+  padding: 20px 0 50px;
+  font-size: 30px;
+}
+
+.border-end {
+  border-right: 0.2px solid #14274e !important;
+}
+
+#temperature {
+  display: inline;
+}

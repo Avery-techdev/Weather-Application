@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+  crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/ec03a5da0a.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="frame shadow">
+      <div class="row">
+        <div class="city col-6">
+          <h1 id="city">
+            
+          </h1>
+        </div>
+        <div class="col-6">
+          <form id="city-form">
+            <input type="text" id="city-input" placeholder="enter your City ..." autofocus="on" class="form-control enter shadow-sm border-0">
+            <br />
+            <input type="submit" value="search" class="submit shadow-sm" id="search-form">
+            <input type="submit" value="current" class="current shadow-sm" id="current-location">
+          </form>
+        </div>
+      </div>
+      <div class="row box shadow-sm">
+        <div class="col-6">
+          <h3>
+            
+          </h3>
+        </div>
+        <div class="col-6">
+          <h2>
+            <div id="temperature">
+              
+            </div>
+            <span class="units">
+              <span>
+              <a href="#" id="celsius">
+                °C
+              </a> 
+              |
+            </span>
+            <a href="#" id="fahrenheit">
+              °F
+            </a>
+            </span>
+           </h2>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <i class="fas fa-cloud-sun"></i>
+          </div>
+          <div class="col-3 property-table properties">
+            rainfall
+            humidity
+            wind
+          </div>
+          <div class="col-3 property-table">
+            <span id="rainfall"></span>%
+            <br />
+            <span id="humidity"></span>%
+            <br />
+            <span id="wind"></span> km/h
+          </div>
+        </div>
+      </div>
+      <div class="row preview">
+        <div class="col-2 border-end">
+          Sa 
+          <i class="fas fa-wind"></i>
+          1°
+        </div>
+        <div class="col-2 border-end">
+          Su
+          <i class="fas fa-smog"></i>
+          3°
+        </div>
+        <div class="col-2 border-end">
+          Mo
+          <i class="fas fa-cloud"></i>
+          4°
+        </div>
+        <div class="col-2 border-end">
+          Tue
+          <i class="fas fa-sun"></i>
+          7°
+        </div>
+        <div class="col-2 border-end">
+          We
+          <i class="fas fa-cloud-sun-rain"></i>
+          5°
+        </div>
+        <div class="col-2">
+          Th
+          <i class="fas fa-cloud-showers-heavy"></i>
+          6°
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="src/index.js"></script>
+</body>
+</html>
