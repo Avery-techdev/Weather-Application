@@ -131,6 +131,10 @@ a:hover {
   border-right: 0.2px solid #14274e !important;
 }
 
+.signature {
+  font-size: 20px;
+}
+
 #temperature {
   display: inline;
 }
