@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #14274e;
+  color: #ffffff;
 }
 
 .city {
@@ -99,6 +99,15 @@ a:hover {
   position: relative;
   top: -85px;
   left: -30px;
+}
+
+.weather-temperature .active {
+  color: #ffffff;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 
 .fas {
