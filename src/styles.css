@@ -16,12 +16,6 @@ h2 {
   margin-top: 50px;
 }
 
-h3 {
-  font-size: 40px;
-  padding: 40px;
-  margin-top: 30px;
-}
-
 form {
   display: inline;
   float: right;
@@ -129,9 +123,9 @@ a:hover {
   text-align: right;
 }
 
-.preview {
+.weather-forecast {
   text-align: center;
-  margin: 0 50px;
+  margin: 0 50px 0;
   padding: 20px 0 50px;
   font-size: 30px;
 }
@@ -147,4 +141,10 @@ a:hover {
 
 #temperature {
   display: inline;
+}
+
+#current-date {
+  font-size: 40px;
+  padding: 40px;
+  margin-top: 30px;
 }
