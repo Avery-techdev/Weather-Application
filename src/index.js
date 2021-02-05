@@ -30,7 +30,7 @@ function displayWeatherCondotion(response) {
   currentDate.innerHTML = formatDate(response.data.dt*1000);
   let iconReference = response.data.weather[0].icon;
   let iconElement = document.querySelector("#icon");
-  iconElement.setAttribute("src", `img/${iconReference}.png`);
+  iconElement.setAttribute("src", `img/currently/${iconReference}.png`);
   iconElement.setAttribute("alt", response.data.weather[0].description);
   
   celsiusTemperature = response.data.main.temp;
@@ -46,7 +46,7 @@ function displayForecast (response) {
     forecastElement.innerHTML += `
     <div class="col-2 border-end">
           ${formatHours(forecast.dt * 1000)}
-          <img src="img/${forecast.weather[0].icon}.png" class="forecast-icon" id="icon">
+          <img src="img/forecast/${forecast.weather[0].icon}.png" class="forecast-icon" id="icon">
           ${Math.round(forecast.main.temp)}°
         </div>
         `;
