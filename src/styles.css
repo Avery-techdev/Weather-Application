@@ -140,6 +140,10 @@ a:hover {
   text-align: left;
 }
 
+.link:hover {
+  color: #14274e;
+}
+
 #temperature {
   display: inline;
 }
