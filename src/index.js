@@ -40,7 +40,6 @@ function displayWeatherCondotion(response) {
   currentDate.innerHTML = formatDate(response.data.dt*1000);
   iconElement.setAttribute("src", `img/currently/${iconReference}.png`);
   iconElement.setAttribute("alt", response.data.weather[0].description);
-  console.log(response.data)
 }
 
 function displayForecast (response) {
