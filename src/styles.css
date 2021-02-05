@@ -104,14 +104,14 @@ a:hover {
   text-decoration: none;
 }
 
-.fas {
-  display: block;
+.currently-icon {
+  width: 150px;
+  margin: 20px 20px 30px 40px;
 }
 
-.fa-cloud-sun {
-  font-size: 120px;
-  text-align: center;
-  margin: 20px 20px 30px 40px;
+.forecast-icon {
+  width: 80px;
+  padding: 15px;
 }
 
 .property-table {
@@ -147,4 +147,8 @@ a:hover {
   font-size: 40px;
   padding: 40px;
   margin-top: 30px;
+}
+
+#icon {
+  display: block;
 }
