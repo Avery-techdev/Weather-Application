@@ -117,6 +117,7 @@ a:hover {
 .property-table {
   padding-top: 30px;
   font-size: 20px;
+  margin-top: 40px;
 }
 
 .properties {
@@ -147,6 +148,12 @@ a:hover {
   font-size: 40px;
   padding: 40px;
   margin-top: 30px;
+}
+
+#description {
+  font-size: 20px;
+  text-align: right;
+  padding: 30px;
 }
 
 #icon {
