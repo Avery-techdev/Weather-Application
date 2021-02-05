@@ -64,6 +64,12 @@ a:hover {
   color: #ffffff;
 }
 
+.update {
+  position: absolute;
+  float: right;
+  margin: 50px 0 0 30px;
+}
+
 .current {
   position: relative;
   float: right;
@@ -156,7 +162,7 @@ a:hover {
 
 #description {
   font-size: 20px;
-  text-align: right;
+  text-align: left;
   padding: 30px;
 }
 
